@@ -1,0 +1,182 @@
+body {
+  background-image: url("../../images/k.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 1600px 1500px; }
+
+.navbar {
+  background-color: #0E1825;
+  font-family: 'Montserrat', sans-serif;
+  height: 80px; }
+
+.carousel-inner {
+  background-color: rgba(248, 248, 248, 0.68);
+  box-shadow: 5px 5px 7px rgba(128, 128, 128, 0.64);
+  height: 200px; }
+
+p {
+  font-family: 'KoHo', sans-serif;
+  color: #142540; }
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #142540; }
+
+.procent {
+  font-size: 4em;
+  font-family: 'Montserrat', sans-serif; }
+
+@media (max-width: 767px) {
+  .pen {
+    width: 230px;
+    padding-top: 60px;
+    padding-left: 30px; } }
+.doneer {
+  border-radius: 0px;
+  background-color: #0E1825;
+  border-color: #0E1825; }
+
+@media (min-width: 1200px) {
+  .lijn {
+    border-top: 1px dotted;
+    width: 280px; } }
+@media (max-width: 1200px) and (min-width: 767px) {
+  .lijn {
+    border-top: 1px dotted;
+    width: 220px; } }
+@media (max-width: 767px) {
+  .lijn2 {
+    border-top: 1px dotted;
+    width: 150px; } }
+@media (min-width: 1200px) {
+  .lijn2 {
+    border-top: 1px dotted;
+    width: 900px; } }
+@media (min-width: 1200px) {
+  .bedragen {
+    background-color: rgba(248, 248, 248, 0.79);
+    box-shadow: 2px 0px 2px rgba(136, 136, 136, 0.31);
+    font-size: 1.5vw; } }
+@media (max-width: 1200px) and (min-width: 767px) {
+  .bedragen {
+    width: 350px;
+    background-color: rgba(248, 248, 248, 0.79);
+    box-shadow: 2px 0px 2px rgba(136, 136, 136, 0.31);
+    font-size: 1.5vw; } }
+@media (max-width: 767px) {
+  .bedragen {
+    margin-top: 30px;
+    background-color: rgba(248, 248, 248, 0.79);
+    box-shadow: 2px 0px 2px rgba(136, 136, 136, 0.31);
+    font-size: 1.5vw; } }
+@media (max-width: 767px) {
+  .keuzes {
+    width: 337px;
+    background-color: rgba(248, 248, 248, 0.79);
+    box-shadow: 2px 2px 2px rgba(136, 136, 136, 0.31);
+    padding-bottom: 5px; } }
+@media (max-width: 1200px) and (min-width: 767px) {
+  .keuzes {
+    width: 300px;
+    background-color: rgba(248, 248, 248, 0.79);
+    box-shadow: 2px 2px 2px rgba(136, 136, 136, 0.31);
+    padding-bottom: 5px; }
+
+  font-size: 1.5vw; }
+@media (min-width: 1200px) {
+  .keuzes {
+    width: 337px;
+    background-color: rgba(248, 248, 248, 0.79);
+    box-shadow: 2px 2px 2px rgba(136, 136, 136, 0.31);
+    padding-bottom: 5px; } }
+@media (max-width: 767px) {
+  .blok {
+    display: none; } }
+@media (max-width: 1200px) and (min-width: 767px) {
+  .blok {
+    width: 276px; } }
+.meter {
+  background-color: rgba(248, 248, 248, 0.79); }
+
+@media (max-width: 767px) {
+  .meter {
+    background-color: rgba(248, 248, 248, 0.79);
+    margin-top: 30px; } }
+.l {
+  height: 200px; }
+
+@media (max-width: 767px) {
+  .l {
+    height: 160px;
+    margin-top: 10px; } }
+@media (min-width: 1200px) {
+  .tekst {
+    width: 270px; } }
+@media (max-width: 1200px) and (min-width: 767px) {
+  .tekst {
+    width: 200px; } }
+@media (min-width: 1200px) {
+  .tekstje {
+    font-size: 1.4em; }
+
+  h3 {
+    font-size: 1em; } }
+@media (max-width: 767px) {
+  .tekstje {
+    font-size: 1em; }
+
+  h3 {
+    font-size: 1em; } }
+.slogan {
+  text-align: center; }
+
+@media (min-width: 1200px) {
+  .ink {
+    position: absolute;
+    top: 30%;
+    left: 32%;
+    font-family: 'Montserrat', sans-serif; } }
+@media (max-width: 767px) {
+  .ink {
+    position: absolute;
+    top: 30%;
+    left: 5%; } }
+.knop {
+  position: absolute;
+  top: 45%;
+  left: 45%; }
+
+.beloning {
+  background-color: rgba(248, 248, 248, 0.82); }
+
+.keuze {
+  background-color: rgba(248, 248, 248, 0.69); }
+
+@media (max-width: 767px) {
+  .login {
+    background-color: rgba(248, 248, 248, 0.69);
+    background-position: center;
+    padding: 50px;
+    height: 800px;
+    margin-bottom: 50px; } }
+@media (min-width: 1200px) {
+  .login {
+    background-color: rgba(248, 248, 248, 0.69);
+    background-position: center;
+    padding: 50px;
+    height: 500px;
+    margin-bottom: 50px; } }
+@media (min-width: 1200px) {
+  .login2 {
+    background-color: rgba(248, 248, 248, 0.69);
+    background-position: center;
+    padding: 50px;
+    height: 320px;
+    margin-bottom: 50px; } }
+@media (max-width: 767px) {
+  .login2 {
+    background-color: rgba(248, 248, 248, 0.69);
+    background-position: center;
+    padding: 50px;
+    height: 480px;
+    margin-bottom: 50px; } }
