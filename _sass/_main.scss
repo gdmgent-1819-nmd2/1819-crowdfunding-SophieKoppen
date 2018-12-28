@@ -11,27 +11,25 @@ background-size: 1600px 1500px;}
     top:30%;
     left:38%;}
 
-    @media (max-width:767px){
+@media (max-width:767px){
         .progress{position: absolute;
             top:40%;
             left:38%;}}
 
 .progress-bar{position: absolute;
-      background-color:  #142540;
-        
-       
-        }
+      background-color:  #142540;}
+
+
 .backers{position: absolute;
     top:25%;
     left:45%;}
 
-    @media (max-width:767px){
-    .backers{position: absolute;
-        top:35%;
-        left:30%;}}
+@media (max-width:767px){
+.backers{position: absolute;
+    top:35%;
+    left:30%;}}
 
-    .stift{opacity: 0,7;
-        filter: alpha(opacity=70);} 
+
 
 .navbar{ background-color: #0E1825;
 font-family:'Montserrat', sans-serif; 
