@@ -4,30 +4,29 @@ body {
   background-size: cover;
   background-size: 1600px 1500px; }
 
-.progress {
-  position: absolute;
-  top: 30%;
-  left: 38%; }
-
-@media (max-width: 767px) {
+@media (min-width: 1200px) {
   .progress {
     position: absolute;
-    top: 40%;
+    top: 30%;
+    left: 38%; } }
+@media (max-width: 767px) {
+  .progress {
+    position: sticky;
+    margin-top: 10px;
     left: 38%; } }
 .progress-bar {
   position: absolute;
   background-color: #142540; }
 
-.backers {
-  position: absolute;
-  top: 25%;
-  left: 45%; }
-
-@media (max-width: 767px) {
+@media (min-width: 1200px) {
   .backers {
     position: absolute;
-    top: 35%;
-    left: 30%; } }
+    top: 20%;
+    left: 45%; } }
+@media (max-width: 767px) {
+  .backers {
+    position: sticky;
+    margin-top: 30px; } }
 .navbar {
   background-color: #0E1825;
   font-family: 'Montserrat', sans-serif; }
@@ -161,19 +160,19 @@ h2 {
     font-family: 'Montserrat', sans-serif; } }
 @media (max-width: 767px) {
   .ink {
-    position: absolute;
+    position: sticky;
     top: 40%;
     left: 5%;
     font-size: 2em; } }
-.knop {
-  position: absolute;
-  top: 45%;
-  left: 45%; }
-
-@media (max-width: 767px) {
+@media (min-width: 1200px) {
   .knop {
     position: absolute;
-    top: 60%;
+    top: 45%;
+    left: 45%; } }
+@media (max-width: 767px) {
+  .knop {
+    position: sticky;
+    margin-top: 10px;
     left: 30%; } }
 .beloning {
   background-color: rgba(248, 248, 248, 0.62);

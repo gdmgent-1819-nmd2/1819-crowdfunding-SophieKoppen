@@ -6,28 +6,28 @@ background-repeat: no-repeat;
 background-size: cover;
 background-size: 1600px 1500px;}
 
-
+@media (min-width:1200px){
 .progress{position: absolute;
     top:30%;
-    left:38%;}
+    left:38%;}}
 
 @media (max-width:767px){
-        .progress{position: absolute;
-            top:40%;
+        .progress{position: sticky;
+            margin-top: 10px;
             left:38%;}}
 
 .progress-bar{position: absolute;
       background-color:  #142540;}
 
-
+      @media (min-width:1200px){
 .backers{position: absolute;
-    top:25%;
-    left:45%;}
+    top:20%;
+    left:45%;}}
 
 @media (max-width:767px){
-.backers{position: absolute;
-    top:35%;
-    left:30%;}}
+.backers{position: sticky;
+    margin-top: 30px;
+    }}
 
 
 
@@ -170,17 +170,18 @@ top:30%;
 left:32%;
 font-family: 'Montserrat', sans-serif;
 }}
-@media (max-width: 767px){.ink{position: absolute;
+@media (max-width: 767px){.ink{position: sticky;
     top:40%;
     left:5%;
     font-size: 2em;} }
 
+    @media (min-width:1200px) {
 .knop{position: absolute;
     top:45%;
-    left:45%;}
+    left:45%;}}
 
-    @media (max-width: 767px){.knop{position: absolute;
-        top:60%;
+    @media (max-width: 767px){.knop{position: sticky;
+        margin-top: 10px;
         left:30%;
         } }
 
