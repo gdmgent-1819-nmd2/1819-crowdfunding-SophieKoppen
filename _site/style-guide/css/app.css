@@ -4,6 +4,13 @@ body {
   background-size: cover;
   background-size: 1600px 1500px; }
 
+a {
+  color: #6E26EB; }
+
+a:hover {
+  color: #342449;
+  text-decoration: none; }
+
 @media (min-width: 1200px) {
   .progress {
     position: absolute;
@@ -28,6 +35,18 @@ body {
   .backers {
     position: sticky;
     margin-top: 30px; } }
+.navbar-brand {
+  color: white; }
+
+.navbar-brand:hover {
+  color: white; }
+
+.nav-link {
+  color: white; }
+
+.nav-link:hover {
+  color: #6E26EB; }
+
 .navbar {
   background-color: #0E1825;
   font-family: 'Montserrat', sans-serif; }
@@ -58,6 +77,16 @@ h2 {
   border-radius: 0px;
   background-color: #0E1825;
   border-color: #0E1825; }
+
+.doneer:hover {
+  border-radius: 0px;
+  background-color: #6E26EB;
+  border-color: #6E26EB; }
+
+.doneer:active {
+  border-radius: 0px;
+  background-color: #0F0229;
+  border-color: #10022C; }
 
 @media (min-width: 1200px) {
   .lijn {
