@@ -6,6 +6,12 @@ background-repeat: no-repeat;
 background-size: cover;
 background-size: 1600px 1500px;}
 
+@media (max-width:767px){body {background-image:url("../../images/k.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 1600px 2000px;}}
+
 a{color:#6E26EB; }
 
 a:hover{color:#342449;
