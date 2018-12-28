@@ -1,5 +1,5 @@
 
-
+//** achtergrond **//
 body{ background-image:url("../../images/k.jpg");
 
 background-repeat: no-repeat;
@@ -12,6 +12,8 @@ background-size: 1600px 1500px;}
     background-size: cover;
     background-size: 1600px 2000px;}}
 
+
+//** footer **//
 @media (min-width:1200px){
 .card-footer{margin-top: 190px;
 background-color:  #0E1825;
@@ -22,6 +24,7 @@ color: white;}}
         background-color:  #0E1825;
     color:white; }}
 
+//** afbeelding stift **//
 @media (min-width:1200px){
 .oke{margin-bottom: 200px;
 margin-top:100px;}}
@@ -30,11 +33,13 @@ margin-top:100px;}}
     .oke{margin-bottom: 200px;
 }}
 
-
+//** link **//
 a{color:#6E26EB; }
 
 a:hover{color:#342449;
 text-decoration: none;}
+
+
 
 @media (min-width:1200px){
 .progress{position: absolute;
@@ -47,17 +52,23 @@ text-decoration: none;}
             margin-top: 10px;
             left:38%;
             
-            font-size: 10px;;}}
+            font-size: 10px;}}
 
 
 @media (min-width:767px) and (max-width:1200px){
     .progress{position: sticky;
         margin-top: 20px;
         left:38%;
-        font-size: 10px;;}}
+        font-size: 10px;}}
 
-.progress-bar{position: absolute;
-      background-color:  #142540;}
+
+@media (max-width:767px){
+.progress-bar{position: sticky;
+      background-color:  #142540;}}
+
+@media (min-width:767px){
+        .progress-bar{position: sticky;
+              background-color:  #142540;}}
 
       @media (min-width:1200px){
 .backers{position: absolute;
@@ -298,7 +309,8 @@ margin-bottom: 50px;}
             margin-bottom: 50px;}}
 
     @media (max-width:767px) {
-        .danku{font-size:2em;}}
+        .danku{font-size:2em;
+            margin-bottom: 350px;}}
 
         @media (max-width:1200px) and (min-width:767px) {
             .danku{font-size:2em;
