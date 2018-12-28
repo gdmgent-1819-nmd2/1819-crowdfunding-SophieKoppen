@@ -35,18 +35,6 @@ a:hover {
   .backers {
     position: sticky;
     margin-top: 30px; } }
-.navbar-brand {
-  color: white; }
-
-.navbar-brand:hover {
-  color: white; }
-
-.nav-link {
-  color: white; }
-
-.nav-link:hover {
-  color: #6E26EB; }
-
 .navbar {
   background-color: #0E1825;
   font-family: 'Montserrat', sans-serif; }
