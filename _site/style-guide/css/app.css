@@ -174,7 +174,7 @@ h2 {
 @media (max-width: 767px) {
   .knop {
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 30%; } }
 .beloning {
   background-color: rgba(248, 248, 248, 0.62);
