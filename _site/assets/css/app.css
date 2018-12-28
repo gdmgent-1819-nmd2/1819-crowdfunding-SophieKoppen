@@ -234,3 +234,5 @@ h2 {
 @media (max-width: 767px) {
   .danku {
     font-size: 2em; } }
+.uitleg {
+  font-size: 14px; }
