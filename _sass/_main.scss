@@ -13,6 +13,11 @@ background-size: 1600px 1500px;}
     background-size: 1600px 2000px;}}
 
 
+/** navigatie **//
+    .navbar{ background-color: #0E1825;
+        font-family:'Montserrat', sans-serif; 
+        }
+
 //** footer **//
 @media (min-width:1200px){
 .card-footer{margin-top: 190px;
@@ -29,6 +34,7 @@ color: white;}}
         background-color:  #0E1825;
     color:white; }}
 
+
 //** afbeelding stift **//
 @media (min-width:1200px){
 .oke{margin-bottom: 200px;
@@ -38,11 +44,15 @@ margin-top:100px;}}
     .oke{margin-bottom: 200px;
 }}
 
+
+
 //** link **//
 a{color:#6E26EB; }
 
 a:hover{color:#342449;
 text-decoration: none;}
+
+
 
 //** progress bar **//
 
@@ -75,6 +85,8 @@ text-decoration: none;}
         .progress-bar{position: sticky;
               background-color:  #142540;}}
 
+
+
 //** backers **//
 
       @media (min-width:1200px){
@@ -91,6 +103,7 @@ text-decoration: none;}
     .backers{position: sticky;
         margin-top: 30px;
         }}
+
 
 //** knop home page **//
 @media (min-width:1200px) {
@@ -110,13 +123,13 @@ text-decoration: none;}
                     } }
 
 
-.navbar{ background-color: #0E1825;
-font-family:'Montserrat', sans-serif; 
-}
 
+/** carousel **//
 .carousel-inner {background-color: rgba(248, 248, 248, 0.57);
 box-shadow: 2px 0px 2px rgba(128, 128, 128, 0.58);
 height: 200px;}
+
+
 
 p{ font-family: 'KoHo', sans-serif;
 color: #142540;}
@@ -318,6 +331,8 @@ margin-bottom: 50px;}
             
             margin-bottom: 50px;}}
 
+
+/** bedanking **//
     @media (max-width:767px) {
         .danku{font-size:2em;
             margin-bottom: 350px;}}
@@ -329,6 +344,9 @@ margin-bottom: 50px;}
         @media (min-width:1200px){.danku{font-size:2em;
             margin-bottom: 220px;}}
 
+
+
+    /** pagina over ons **//
     .uitleg{font-size: 14px;
         }
 
