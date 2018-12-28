@@ -161,7 +161,7 @@ h2 {
 @media (max-width: 767px) {
   .ink {
     position: sticky;
-    top: 40%;
+    margin-top: 30px;
     left: 5%;
     font-size: 2em; } }
 @media (min-width: 1200px) {
@@ -212,3 +212,6 @@ h2 {
   .login2 {
     background-position: center;
     margin-bottom: 50px; } }
+@media (max-width: 767px) {
+  .danku {
+    font-size: 2em; } }
