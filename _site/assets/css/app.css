@@ -12,7 +12,7 @@ body {
     background-size: 1600px 2000px; } }
 @media (min-width: 1200px) {
   .card-footer {
-    margin-top: 100px;
+    margin-top: 190px;
     background-color: #0E1825;
     color: white; } }
 @media (max-width: 767px) {
@@ -20,9 +20,13 @@ body {
     margin-top: 50px;
     background-color: #0E1825;
     color: white; } }
-.oke {
-  margin-bottom: 200px; }
-
+@media (min-width: 1200px) {
+  .oke {
+    margin-bottom: 200px;
+    margin-top: 100px; } }
+@media (max-width: 1200px) {
+  .oke {
+    margin-bottom: 200px; } }
 a {
   color: #6E26EB; }
 
@@ -78,8 +82,7 @@ p {
   color: #142540; }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
-  color: #142540; }
+  font-family: 'Montserrat', sans-serif; }
 
 .procent {
   font-size: 4em;
@@ -204,13 +207,15 @@ h2 {
     position: absolute;
     top: 30%;
     left: 32%;
-    font-family: 'Montserrat', sans-serif; } }
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF; } }
 @media (max-width: 1200px) and (min-width: 767px) {
   .ink {
     position: sticky;
     margin-top: 40px;
     left: 25%;
-    font-family: 'Montserrat', sans-serif; } }
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF; } }
 @media (max-width: 767px) {
   .ink {
     position: sticky;
@@ -279,6 +284,10 @@ h2 {
   .danku {
     font-size: 2em;
     margin-bottom: 350px; } }
+@media (min-width: 1200px) {
+  .danku {
+    font-size: 2em;
+    margin-bottom: 220px; } }
 .uitleg {
   font-size: 14px; }
 

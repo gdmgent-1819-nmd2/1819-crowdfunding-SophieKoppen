@@ -13,7 +13,7 @@ background-size: 1600px 1500px;}
     background-size: 1600px 2000px;}}
 
 @media (min-width:1200px){
-.card-footer{margin-top: 100px;
+.card-footer{margin-top: 190px;
 background-color:  #0E1825;
 color: white;}}
 
@@ -22,8 +22,13 @@ color: white;}}
         background-color:  #0E1825;
     color:white; }}
 
+@media (min-width:1200px){
+.oke{margin-bottom: 200px;
+margin-top:100px;}}
 
-.oke{margin-bottom: 200px}
+@media (max-width:1200px){
+    .oke{margin-bottom: 200px;
+}}
 
 
 a{color:#6E26EB; }
@@ -81,7 +86,7 @@ height: 200px;}
 p{ font-family: 'KoHo', sans-serif;
 color: #142540;}
 h2{font-family: 'Montserrat', sans-serif;
-    color: #142540;}
+    }
 
 .procent{ font-size: 4em;
 font-family:'Montserrat', sans-serif; 
@@ -218,13 +223,13 @@ h3{font-size: 1em;}}
 top:30%;
 left:32%;
 font-family: 'Montserrat', sans-serif;
-}}
+color: #FFFFFF;}}
 
 @media (max-width: 1200px) and (min-width: 767px){.ink{position: sticky;
     margin-top:40px;
     left:25%;
     font-family: 'Montserrat', sans-serif;
-    }}
+    color: #FFFFFF;}}
 @media (max-width: 767px){.ink{position: sticky;
     margin-top:30px;
     left:5%;
@@ -298,6 +303,9 @@ margin-bottom: 50px;}
         @media (max-width:1200px) and (min-width:767px) {
             .danku{font-size:2em;
             margin-bottom: 350px;}}
+
+        @media (min-width:1200px){.danku{font-size:2em;
+            margin-bottom: 220px;}}
 
     .uitleg{font-size: 14px;
         }
