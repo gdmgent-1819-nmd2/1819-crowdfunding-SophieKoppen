@@ -28,6 +28,12 @@ a:hover {
     margin-top: 10px;
     left: 38%;
     font-size: 10px; } }
+@media (min-width: 767px) and (max-width: 1200px) {
+  .progress {
+    position: sticky;
+    margin-top: 20px;
+    left: 38%;
+    font-size: 10px; } }
 .progress-bar {
   position: absolute;
   background-color: #142540; }
@@ -38,6 +44,10 @@ a:hover {
     top: 20%;
     left: 45%; } }
 @media (max-width: 767px) {
+  .backers {
+    position: sticky;
+    margin-top: 30px; } }
+@media (min-width: 767px) and (max-width: 1200px) {
   .backers {
     position: sticky;
     margin-top: 30px; } }
@@ -182,6 +192,12 @@ h2 {
     top: 30%;
     left: 32%;
     font-family: 'Montserrat', sans-serif; } }
+@media (max-width: 1200px) and (min-width: 767px) {
+  .ink {
+    position: sticky;
+    top: 20%;
+    left: 25%;
+    font-family: 'Montserrat', sans-serif; } }
 @media (max-width: 767px) {
   .ink {
     position: sticky;
@@ -194,6 +210,12 @@ h2 {
     position: absolute;
     top: 45%;
     left: 45%; } }
+@media (max-width: 1200px) and (min-width: 767px) {
+  .knop {
+    position: sticky;
+    margin-top: 10px;
+    left: 38%;
+    font-family: 'Montserrat', sans-serif; } }
 @media (max-width: 767px) {
   .knop {
     position: sticky;

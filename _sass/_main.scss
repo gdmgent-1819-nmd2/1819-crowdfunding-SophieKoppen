@@ -30,6 +30,13 @@ text-decoration: none;}
             
             font-size: 10px;;}}
 
+
+@media (min-width:767px) and (max-width:1200px){
+    .progress{position: sticky;
+        margin-top: 20px;
+        left:38%;
+        font-size: 10px;;}}
+
 .progress-bar{position: absolute;
       background-color:  #142540;}
 
@@ -43,7 +50,10 @@ text-decoration: none;}
     margin-top: 30px;
     }}
 
-
+@media (min-width:767px) and (max-width:1200px){
+    .backers{position: sticky;
+        margin-top: 30px;
+        }}
 
 
 .navbar{ background-color: #0E1825;
@@ -195,6 +205,12 @@ top:30%;
 left:32%;
 font-family: 'Montserrat', sans-serif;
 }}
+
+@media (max-width: 1200px) and (min-width: 767px){.ink{position: sticky;
+    top:20%;
+    left:25%;
+    font-family: 'Montserrat', sans-serif;
+    }}
 @media (max-width: 767px){.ink{position: sticky;
     margin-top:30px;
     left:5%;
@@ -205,6 +221,12 @@ font-family: 'Montserrat', sans-serif;
 .knop{position: absolute;
     top:45%;
     left:45%;}}
+
+    @media (max-width: 1200px) and (min-width: 767px){.knop{position: sticky;
+        margin-top: 10px;
+        left:38%;
+        font-family: 'Montserrat', sans-serif;
+        }}
 
     @media (max-width: 767px){.knop{position: sticky;
         margin-top: 10px;
