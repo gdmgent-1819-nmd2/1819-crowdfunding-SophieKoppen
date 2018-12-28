@@ -7,8 +7,28 @@ background-size: cover;
 background-size: 1600px 1500px;}
 
 
+.progress{position: absolute;
+    top:30%;
+    left:38%;}
 
+    @media (max-width:767px){
+        .progress{position: absolute;
+            top:40%;
+            left:38%;}}
 
+.progress-bar{position: absolute;
+      background-color:  #142540;
+        
+       
+        }
+.backers{position: absolute;
+    top:25%;
+    left:45%;}
+
+    @media (max-width:767px){
+    .backers{position: absolute;
+        top:35%;
+        left:30%;}}
 
 .navbar{ background-color: #0E1825;
 font-family:'Montserrat', sans-serif; 
@@ -150,12 +170,18 @@ left:32%;
 font-family: 'Montserrat', sans-serif;
 }}
 @media (max-width: 767px){.ink{position: absolute;
-    top:30%;
-    left:5%;} }
+    top:40%;
+    left:5%;
+    font-size: 2em;} }
 
 .knop{position: absolute;
     top:45%;
     left:45%;}
+
+    @media (max-width: 767px){.knop{position: absolute;
+        top:55%;
+        left:30%;
+        } }
 
 .beloning{background-color: rgba(248, 248, 248, 0.62);
 border-radius: 1%;}
