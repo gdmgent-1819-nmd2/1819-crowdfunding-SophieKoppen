@@ -30,8 +30,7 @@ body {
     left: 30%; } }
 .navbar {
   background-color: #0E1825;
-  font-family: 'Montserrat', sans-serif;
-  height: 80px; }
+  font-family: 'Montserrat', sans-serif; }
 
 .carousel-inner {
   background-color: rgba(248, 248, 248, 0.57);
