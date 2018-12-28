@@ -10,6 +10,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 1600px 2000px; } }
+@media (min-width: 1200px) {
+  .card-footer {
+    margin-top: 100px;
+    background-color: #0E1825;
+    color: white; } }
+@media (max-width: 767px) {
+  .card-footer {
+    margin-top: 50px;
+    background-color: #0E1825;
+    color: white; } }
+.oke {
+  margin-bottom: 200px; }
+
 a {
   color: #6E26EB; }
 
@@ -195,7 +208,7 @@ h2 {
 @media (max-width: 1200px) and (min-width: 767px) {
   .ink {
     position: sticky;
-    top: 20%;
+    margin-top: 40px;
     left: 25%;
     font-family: 'Montserrat', sans-serif; } }
 @media (max-width: 767px) {
@@ -253,8 +266,8 @@ h2 {
     background-color: rgba(248, 248, 248, 0.69);
     background-position: center;
     padding: 50px;
-    height: 320px;
-    margin-bottom: 50px; } }
+    height: 330px;
+    margin-bottom: 100px; } }
 @media (max-width: 767px) {
   .login2 {
     background-position: center;
@@ -262,6 +275,10 @@ h2 {
 @media (max-width: 767px) {
   .danku {
     font-size: 2em; } }
+@media (max-width: 1200px) and (min-width: 767px) {
+  .danku {
+    font-size: 2em;
+    margin-bottom: 350px; } }
 .uitleg {
   font-size: 14px; }
 
@@ -304,3 +321,6 @@ h2 {
   .foto {
     display: inline-block;
     width: 150px; } }
+@media (max-width: 1200px) and (min-width: 767px) {
+  .vanessa {
+    margin-bottom: 20px; } }
