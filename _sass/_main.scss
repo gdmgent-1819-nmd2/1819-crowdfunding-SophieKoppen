@@ -263,3 +263,37 @@ margin-bottom: 50px;}
 
     .wij{background-color:rgba(248, 248, 248, 0.51);
     }
+
+    @media (max-width:1200px) and (min-width:767px) {.naam{ font-size: 18px;
+        margin-left:12px;}}
+
+    @media (max-width:1200px) and (min-width:767px) {.uitleg{font-size: 12px;
+        margin-left:12px;
+    }}
+
+    @media (min-width:767px) and (max-width:991px){.naam{ font-size: 16px;
+        width: 500px;
+        display: inline-block;
+    }}
+
+    @media (min-width:767px) and (max-width:991px){.uitleg{ font-size: 12px;
+            width: 400px;
+            margin-right: 200px;
+            display: inline-block;
+        }}
+        @media (min-width:767px) and (max-width:991px){.foto{display: block;
+        width:100px;
+        margin-right: 2000px;}}
+
+
+        @media(max-width:1200px) and (min-width:767px){.foto{display: inline-block;
+            width:130px;}}
+
+            @media(min-width:1200px) {.foto{display: inline-block;
+                width:150px;}}
+
+
+        @media (max-width:767px) {.foto{display: inline-block;
+                width:150px;}}
+   
+
